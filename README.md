@@ -4,7 +4,7 @@
 
 <p align="center" >
   <kbd>
-    <img src="https://raw.githubusercontent.com/desmondmc/react-native-os-share/master/assets/IMG_1633.PNG" title="Scroll Demo" float="left">
+    <img src="https://raw.githubusercontent.com/desmondmc/react-native-os-share/master/assets/share.png" title="Scroll Demo" float="left">
   </kbd>
 </p>
 
