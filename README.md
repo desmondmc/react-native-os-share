@@ -4,10 +4,7 @@
 
 <p align="center" >
   <kbd>
-    <img src="https://github.com/DylanVann/react-native-fast-image/raw/master/docs/assets/scroll.gif" title="Scroll Demo" float="left">
-  </kbd>
-  <kbd>
-    <img src="https://github.com/DylanVann/react-native-fast-image/raw/master/docs/assets/priority.gif" title="Priority Demo" float="left">
+    <img src="https://raw.githubusercontent.com/desmondmc/react-native-os-share/master/assets/IMG_1633.PNG" title="Scroll Demo" float="left">
   </kbd>
 </p>
 
