@@ -3,12 +3,20 @@
 
 @implementation OsShare
 
+NSError *noPathError = [NSError errorWithDomain:@"ShareOs.noPath" code:0 userInfo:nil];
+
 RCT_EXPORT_MODULE()
 
-RCT_EXPORT_METHOD(sampleMethod:(NSString *)stringArgument numberParameter:(nonnull NSNumber *)numberArgument callback:(RCTResponseSenderBlock)callback)
+RCT_REMAP_METHOD(share,
+                 shareOptions:(NSDictionary *)options
+                 resolver:(RCTPromiseResolveBlock)resolve
+                 rejecter:(RCTPromiseRejectBlock)reject)
 {
-    // TODO: Implement some actually useful functionality
-    callback(@[[NSString stringWithFormat: @"numberArgument: %@ stringArgument: %@", numberArgument, stringArgument]]);
+    NSString *path = [RCTConvert NSString:options[@"path"]];
+    
+    if (!path) {
+        reject(@"", @"No path provided", noPath);
+    }
 }
 
 @end
