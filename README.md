@@ -1,6 +1,8 @@
 <h1 align="center">
-  📲 ShareOS
+  📲 OsShare
 </h1>
+
+Dead simple file sharing to the OS
 
 <p align="center" >
   <kbd>
@@ -17,4 +19,3 @@ import OsShare from 'react-native-os-share';
 const url = 'file-path';
 OsShare.share({ url });
 ```
-# react-native-os-share
